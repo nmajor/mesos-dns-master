@@ -28,6 +28,6 @@ ADD mesos-dns /usr/bin/mesos-dns
 ADD mesos-dns.service /etc/systemd/system/mesos-dns.service
 
 EXPOSE 53
-CMD ["systemctl", "start", "mesos-dns"]
+# CMD ["systemctl", "start", "mesos-dns"]
 
 
